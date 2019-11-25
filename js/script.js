@@ -19,7 +19,7 @@ const humburger = document.querySelector ('.burger');
 
 humburger.addEventListener('click', function(e){
   burgerMenu.classList.add('main-nav--open')
-});
+})
 
 // const close =   humburger.classList.add('burger--close')
 close.addEventListener('click', function(e){
