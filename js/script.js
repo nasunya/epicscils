@@ -21,10 +21,9 @@ humburger.addEventListener('click', function(e){
   burgerMenu.classList.add('main-nav--open')
 });
 
-// const close =   humburger.classList.add('burger--close')
-close.addEventListener('click', function(e){
-
-  burgerMenu.classList.remove('main-nav--open')
+const  burgerClose = humburger.classList.add('burger--close')
+burgerClose.addEventListener('click', function(e){
+burgerMenu.classList.remove('main-nav--open')
 })
 
 // let mobMenu = document.querySelector('.main-nav');
